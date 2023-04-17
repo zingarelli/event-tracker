@@ -2,16 +2,14 @@ import React from 'react';
 import Evento from '../Evento';
 import Filtro from '../Filtro';
 import style from './ListaDeEventos.module.scss';
-import { useRecoilValue } from 'recoil';
-import { listaDeEventosState } from '../../state/atom';
+import useListaEventos from '../../state/hooks/useListaEventos';
 
-const ListaDeEventos: React.FC<{ 
-  aoFiltroAplicado: (data: Date | null) => void }> = ({ aoFiltroAplicado }) => {
+const ListaDeEventos: React.FC = () => {
 
-  const eventos = useRecoilValue(listaDeEventosState);
+  const eventos = useListaEventos();
 
   return (<section>
-    <Filtro aoFiltroAplicado={aoFiltroAplicado} />
+    <Filtro />
     <div className={style.Scroll}>
       {eventos.map(evento => (
         <Evento evento={evento} key={evento.id} />
