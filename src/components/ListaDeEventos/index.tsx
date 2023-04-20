@@ -6,7 +6,7 @@ import useListaEventos from '../../state/hooks/useListaEventos';
 
 const ListaDeEventos: React.FC = () => {
 
-  const eventos = useListaEventos();
+  const eventos = useListaEventos()
 
   return (<section>
     <Filtro />
