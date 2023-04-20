@@ -21,6 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "server": "json-server --watch db.json --port 8080",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -44,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "json-server": "^0.17.3",
     "sass": "^1.46.0",
     "typescript-plugin-css-modules": "^3.4.0"
   }

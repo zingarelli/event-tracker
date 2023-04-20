@@ -1,0 +1,32 @@
+{
+    "eventos": [
+        {
+            "descricao": "Estudar React",
+            "inicio": "2023-04-17T09:00",
+            "fim": "2023-04-17T13:00",
+            "completo": false,
+            "id": 1001
+        },
+        {
+            "descricao": "Estudar Recoil",
+            "inicio": "2023-04-18T09:00",
+            "fim": "2023-04-18T11:00",
+            "completo": false,
+            "id": 1002
+        },
+        {
+            "descricao": "Job Search",
+            "inicio": "2023-04-19T08:00",
+            "fim": "2023-04-19T12:00",
+            "completo": false,
+            "id": 1003
+        },
+        {
+            "descricao": "Prática",
+            "inicio": "2023-04-19T18:00",
+            "fim": "2023-04-19T22:00",
+            "completo": false,
+            "id": 1004
+        }
+    ]
+}
