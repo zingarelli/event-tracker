@@ -40,7 +40,7 @@ const Filtro: React.FC = () => {
       placeholder="Por data"
       value={data} />
 
-    <label htmlFor="estado">Estado</label>
+    <label htmlFor="estado">Status</label>
     <select
       name="estado" 
       id="estado"
