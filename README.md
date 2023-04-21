@@ -8,7 +8,7 @@ Gerenciador de eventos e tarefas em um Calendário, sendo possível adicionar no
 | -------------  | --- |
 | :sparkles: Nome        | **Gerenciador de eventos em um Calendário**
 | :label: Tecnologias | React, TypeScript, Recoil
-| :rocket: URL         | 
+| :rocket: URL         | https://event-tracker-silk.vercel.app
 | :fire: Curso     | https://cursos.alura.com.br/course/react-gerenciando-estado-recoil
 
 ![](https://user-images.githubusercontent.com/19349339/233661510-89deb235-ac65-4d48-aaea-5708b751a1b1.png#vitrinedev)
@@ -21,7 +21,7 @@ Instrutor: **[Vinicios Neves](https://www.linkedin.com/in/vinny-neves/)**.
 
 ## Detalhes do projeto
 
-[Veja o projeto online]().
+[Veja o projeto online](https://event-tracker-silk.vercel.app).
 
 Nesta aplicação, é possível gerenciar eventos e tarefas e visualizá-los em um calendário. Ela possui um formulário para adicionar novos eventos, incluindo uma descrição e datas/horários para início e término. Os eventos irão aparecer em uma interface de calendário, parecida com a do Google Calendar, e podem ser arrastados para outras datas e horários, que são alterados dinamicamente.
 
@@ -152,7 +152,7 @@ Instructor: **[Vinicios Neves](https://www.linkedin.com/in/vinny-neves/)**.
 
 ## Project details
 
-[Check the app online]().
+[Check the app online](https://event-tracker-silk.vercel.app).
 
 In this app, it's possible to managem events and tasks and view them in a calendar. The app is in Portuguese.
 
