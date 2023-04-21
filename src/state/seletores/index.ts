@@ -42,15 +42,20 @@ export const eventosFiltradosState = selector({
 export const seletorAsync = selector({
     key: 'seletorAsync',
     get: async () => {
-        // obtém os dados da API
-        const response = await fetch('http://localhost:8080/eventos');
-        const dados: IEvento[] = await response.json();
-
-        // as datas na resposta são string, então é necessário converter para Date
-        return dados.map(evento => ({
-            ...evento,
-            inicio: new Date(evento.inicio),
-            fim: new Date(evento.fim),
-        }));
+        try {
+            // obtém os dados da API
+            const response = await fetch('http://localhost:8080/eventos');
+            const dados: IEvento[] = await response.json();
+            // as datas na resposta são string, então é necessário converter para Date
+            return dados.map(evento => ({
+                ...evento,
+                inicio: new Date(evento.inicio),
+                fim: new Date(evento.fim),
+            }));
+        }
+        catch (err) {
+            console.log(`Error fetching data from API:\n${err}`);
+            return [];
+        }
     }
 })
